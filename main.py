@@ -15,7 +15,7 @@ class DouYin:
     # 初始化加载
     def __init__(self):
         self.driver = webdriver.Chrome()
-        self.targetUrl = "https://www.douyin.com/" #抖音推荐视频抓取地址
+        self.targetUrl = "https://www.douyin.com/" #视频抓取地址
         self.isActiveVideoClass = "xgplayer-playing xgplayer-inactive" #正在播放视频的class
         self.videoInfoId = "video-info-wrap" #视频信息id样式
         self.isLoginElementId = "Cn2CzO_Q" #未登录的元素id标识
